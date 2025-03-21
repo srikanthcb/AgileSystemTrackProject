@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": "e431",
+      "name": "Employee One",
+      "email": "employee1@example.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": "73dc",
+      "name": "Employee Two",
+      "email": "employee2@example.com",
+      "password": "password2",
+      "role": "employee"
+    }
+  ],
+  "scrums": [
+    {
+      "id": "f873",
+      "name": "Scrum Team A"
+    },
+    {
+      "id": "0a6a",
+      "name": "Scrum Team B"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "86a8",
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "To Do",
+      "scrumId": "f873",
+      "assignedTo": "e431",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "id": "2967",
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "To Do",
+      "scrumId": "0a6a",
+      "assignedTo": "73dc",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-19"
+        }
+      ]
+    }
+  ]
+}
